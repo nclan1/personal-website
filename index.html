@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/acd7cf71d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Work</a></li>
+                <li><a href="#portfolio">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>CS Student @ <span>BU</span></p>
+            <h1>Hello! My name is<br> <span>Nolan</span>!</h1>
+        </div> 
+    </div>
+</div>
+<!----------------ABOUT-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/profile.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">A Little About <span>Me</span></h1>
+                <p class="summary">I'm a computer science student at <a href="https://www.usnews.com/best-colleges/boston-university-2130" target="_blank">Boston University</a>.
+                 My hobbies include playing 
+                the guiter, reading, going to the gym, <a href="https://www.instagram.com/timdessaint/?hl=en" target="_blank">fashion</a>, and tinkering
+                with <a href="https://www.youtube.com/watch?v=Qr3nYR15wxU" target="_blank">mechanical keyboards</a>. I also love 
+                <a href="https://beusefulbook.com/" target="_blank">audiobooks</a>. I'm a life long learner and I think everyone has something to teach me. I'll always hear out what others have 
+                to say! <br><br>
+                
+                This website is a personal project I learnt using
+                HTML, CSS, and JavaScript<span>(and hours of YouTube)</span>. I have been
+                experimenting making other things and hope to get better! I am
+                trying to be more creative and learn to put my ideas into something
+                tangible.
+                <br><br>
+                Please feel free to reach out, I'm always looking for a friend <span style="color: red; font-size: 20px;"><3</span></p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tabs-content active-tab" id="experience">
+                    <ul>
+                        <li><span>KSA Design Studio</span><br>
+                            As a <span class="emphas">specification assistant</span> for an interior designer, I compiled, organized, and inputted
+                            numerous design objects in <span class="emphas">Microsoft Word + Excel</span>.
+                            I also maintained the accuracy of item specs by cross-verifying with catalogs and communicated
+                            any discrepencies to the principal designer.
+                            I liaised with the clients in confirmation of meetings and selections via professional emails.
+                        </li>
+
+                        <li><span>Wentworth Asian Student Association</span><br>
+                            Enhanced the club's educational content for members by developing and delivering presentations.
+                            <br>Researched and promoted events such as hackathons, career fairs, and other networking opportunities.
+                            <br>Created a fun and engaging learning environment by organizing and hosting a CS game night with prizes.
+                        </li>
+
+                        <li><span>skills</span><br>another skill description</li>
+                    </ul>
+                </div>
+                <div class="tabs-content" id="skills">
+                    <ul>
+                        <li><span>Photography</span><br>Have been capturing portraints, street, art, and 
+                        nature since 2018</li>
+                        <li><span></span><br>another skill description</li>
+                        <li><span>skill3</span><br>another skill description</li>
+                    </ul>
+                </div>
+                <div class="tabs-content" id="education">
+                    <ul>
+                        <li><span>Boston University</span><br>2023-2026</li>
+                        <li><span>Wentworth Institute of Technology</span><br>2022-2023</li>
+                        <li><span>Alvirne Highschool</span><br>2019-2022</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------Work--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">What I've Made</h1>
+        <div class="services-list">
+            <div>
+                <h2>This Website!</h2>
+                <p>This website was made with HTML, CSS, and JavaScript! I started this project knowing absolutely nothing about these 3.
+                    I followed along with a <a href = "https://youtu.be/0YFrGy_mzjY?si=7EPuSWLWMH6cik7I" target="_blank">YouTube tutorial</a>
+                    and after I made some tweaks to slightly make it more personal! Later on when I have a better understanding I hope to design
+                    something more personal!</p>
+                    <a href="#">Github</a>
+            </div>
+            <div>
+                <h2>more to come...</h2>
+                <p>hopefully something cool soon...</p>
+                    <a href="https://www.youtube.com/watch?v=VM3uXu1Dq4c">very soon...</a>
+            </div>
+            <div>
+                <h2>One of these days....</h2>
+                <p>please wait... patiently...</p>
+                    <a href="https://www.youtube.com/watch?v=Z3J_MCbwaJ0">something cool</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------PORTFOLIO-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work_1.JPG">
+                <div class="layer">
+                    <h3>Mechanical Keyboards</h3>
+                    <p>This is just a place holder idk what i will put here yet
+                    But we shall see idk yet just gonna keep writing random things</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_2.JPG">
+                <div class="layer">
+                    <h3>Cooking</h3>
+                    <p>This is just a place holder idk what i will put here yet
+                    But we shall see idk yet just gonna keep writing random things</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_3.JPG">
+                <div class="layer">
+                    <h3>Lifting</h3>
+                    <p>This is just a place holder idk what i will put here yet
+                    But we shall see idk yet just gonna keep writing random things</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------------CONTACT-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>NgimCNolan@gmail.com</p>
+                <p><i class ="fas fa-phone-square-alt"></i>7817085881</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/chanrithya-nolan-ngim-184998257/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/Nolano.o"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mr_lan1213/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/nclan1"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Nolan_Resume.pdf".download class ="btn btn2">Resume!</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>this is the end! thank you for visiting <3 ~nolan</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tabs-content");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0px";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwuf0rW23exgoxJ1VHLpE6iKiEpRzfJpdGDYvoawWDc_ftbXWDufbDFnDP_E_NHR_QW/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "i got it"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
