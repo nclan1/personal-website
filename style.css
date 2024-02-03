@@ -367,8 +367,8 @@ nav .fas{
     #header{
         background-image: url(images/nolan_coverPhone.jpeg);
     }
-    .header text{
-        margin-top: 100%;
+    .header-text{
+        margin-top: 70%;
         font-size: 16px;
     }
     .header-text h1{
