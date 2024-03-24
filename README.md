@@ -9,7 +9,8 @@ hey there! this is a very simple personal portfolio website that showcases a lit
 * JavaScript
 
 **Live Demo**
-cnnolan.com
+
+[cnnolan.com]
 
 **Contact**
 * Email: ngimcnolan@gmail.com
