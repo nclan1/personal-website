@@ -1,6 +1,6 @@
-# Nolan Ngim Portfolio Website
+# personal portfolio website
 
-A showcase of my web development skills and projects.
+hey there! this is a very simple personal portfolio website that showcases a little about me, my hobbies, education, experience, and (upcoming) projects. this was the first project i thought to do when i started learning html + css. i used youtube as a major resource to learn and get started. 
 
 **Technologies Used**
 
@@ -8,13 +8,8 @@ A showcase of my web development skills and projects.
 * CSS
 * JavaScript
 
-**Features**
-
-* Somewhat responsive design
-* 
-
 **Live Demo**
-[Link to your portfolio website] 
+cnnolan.com
 
 **Contact**
 * Email: ngimcnolan@gmail.com
